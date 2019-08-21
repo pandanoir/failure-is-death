@@ -1,0 +1,18 @@
+[package]
+name = "failure-is-death"
+version = "0.1.0"
+authors = ["pandanoir <moon_in_france@yahoo.co.jp>"]
+edition = "2018"
+
+[dependencies]
+sourceview = "0.7.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.gtk]
+version = "0.7.0"
+features = ["v3_16"]
+
+[dependencies.gio]
+version = ""
+features = ["v2_44"]
